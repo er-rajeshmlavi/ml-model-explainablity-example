@@ -17,7 +17,9 @@ import importlib
 # Import our example modules
 try:
     # Add current directory to path
-    sys.path.append('/home/groot/MLOps/DEMO/data-drift-and-explainablity')
+    # Add the parent directory of this script to sys.path for module imports
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    sys.path.append(script_dir)
     
     # Import our modules
     import lstm_shap_lime_examples as lstm_module
