@@ -1,0 +1,3 @@
+# Keep outputs directory but ignore its contents
+*
+!.gitkeep
