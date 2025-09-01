@@ -6,9 +6,14 @@ This repository contains comprehensive examples demonstrating how to use **SHAP*
 
 ```
 shap-lime-interpretability/
+├── examples/                              # Example scripts and demos
+│   ├── basic_shap_lime_demo.py           # Introduction to SHAP & LIME
+│   ├── simple_shap_lime_examples.py      # Working LSTM & Prophet examples
+│   ├── lstm_shap_lime_examples.py        # Detailed LSTM interpretability
+│   └── prophet_shap_lime_examples.py     # Detailed Prophet interpretability
 ├── scripts/                              # Setup and utility scripts
 │   ├── comprehensive_interpretability_demo.py  # Combined demo runner
-│   ├── setup_and_demo.py                # Installation and setup
+│   └── setup_and_demo.py                # Installation and setup
 |   ├── basic_shap_lime_demo.py           # Introduction to SHAP & LIME
 │   ├── simple_shap_lime_examples.py      # Working LSTM & Prophet examples
 │   ├── lstm_shap_lime_examples.py        # Detailed LSTM interpretability
